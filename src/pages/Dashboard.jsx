@@ -1,6 +1,6 @@
-function Dashboard() {
+const Dashboard =() => {
     return ( 
-        <div>Dashboard</div>
+        <div><h1>hello world</h1></div>
      );
 }
 
