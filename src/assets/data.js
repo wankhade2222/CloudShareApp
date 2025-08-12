@@ -82,3 +82,34 @@ export const pricingPlans = [
     ]
   }
 ];
+ 
+// testimonials
+export const testimonials = [
+  {
+    name: "Sarah Johnson",
+    role: "Marketing Director",
+    company: "CreativeMinds Inc.",
+    image: "/images/sarah.jpg",
+    rating: 5,
+    quote:
+      "CloudShare has transformed how our team collaborates on creative assets. The secure sharing and intuitive interface have made file management a breeze."
+  },
+  {
+    name: "Michael Chen",
+    role: "Freelance Designer",
+    company: "Self-employed",
+    image: "/images/michael.jpg",
+    rating: 5,
+    quote:
+      "As a freelancer, I need to share large design files with clients securely. CloudShare's simple interface and reasonable pricing make it my go-to solution."
+  },
+  {
+    name: "Priya Sharma",
+    role: "Project Manager",
+    company: "TechSolutions Ltd.",
+    image: "/images/priya.jpg",
+    rating: 5,
+    quote:
+      "Managing project files across multiple teams used to be a nightmare until we found CloudShare. Now everything is organized and accessible exactly when we need it."
+  }
+];
