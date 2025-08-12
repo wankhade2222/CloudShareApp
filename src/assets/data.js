@@ -39,4 +39,46 @@ export const features = [
   }
 ];
 
+// data.js
 
+export const pricingPlans = [
+  {
+    name: "Free",
+    description: "Perfect for getting started",
+    price: "₹0",
+    highlighted: false,
+    features: [
+      "5 file uploads",
+      "Basic file sharing",
+      "7-day file retention",
+      "Email support"
+    ]
+  },
+  {
+    name: "Premium",
+    description: "For individuals with larger needs",
+    price: "₹500",
+    highlighted: true,
+    features: [
+      "500 file uploads",
+      "Advanced file sharing",
+      "30-day file retention",
+      "Priority email support",
+      "File analytics"
+    ]
+  },
+  {
+    name: "Ultimate",
+    description: "For teams and businesses",
+    price: "₹2500",
+    highlighted: false,
+    features: [
+      "5000 file uploads",
+      "Team sharing capabilities",
+      "Unlimited file retention",
+      "24/7 priority support",
+      "Advanced analytics",
+      "API access"
+    ]
+  }
+];
